@@ -1,5 +1,5 @@
 function menuShow(){
-    let menuMobile = document.querySelector('.mobile-menu');
+    let menuMobile = document.querySelector('.lateral-menu');
     if (menuMobile.classList.contains('open')) {
         menuMobile.classList.remove('open');
     } else {
