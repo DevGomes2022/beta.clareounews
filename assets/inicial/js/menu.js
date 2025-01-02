@@ -1,8 +1,8 @@
-function menuShow(){
-    let menuMobile = document.querySelector('.lateral-menu');
-    if (menuMobile.classList.contains('open')) {
-        menuMobile.classList.remove('open');
+function toggleMenu() {
+    var menu = document.getElementById("lateral-menu");
+    if (menu.style.width === "250px") {
+        menu.style.width = "0";
     } else {
-        menuMobile.classList.add('open');
+        menu.style.width = "250px";
     }
 }
